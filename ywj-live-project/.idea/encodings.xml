@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-account-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-account-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-bank-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-bank-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-bank-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-common-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-framework/ywj-live-framework-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-framework/ywj-live-framework-mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-framework/ywj-live-framework-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-framework/ywj-live-framework-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-gift-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-gift-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-id-generator-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-id-generator-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-id-geterator-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-im-core-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-im-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-im-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-im-router-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-im-router-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-im-server-interfaces/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-living-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-living-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-msg-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-msg-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-user-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ywj-live-user-provider/src/main/java" charset="UTF-8" />
+  </component>
+</project>

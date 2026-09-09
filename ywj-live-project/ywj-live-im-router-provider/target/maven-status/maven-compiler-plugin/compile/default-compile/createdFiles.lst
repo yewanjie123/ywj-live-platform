@@ -1,0 +1,9 @@
+com\ywj\live\im\router\provider\rpc\ImOnlineRpcImpl.class
+com\ywj\live\im\router\provider\service\impl\ImRouterServiceImpl.class
+com\ywj\live\im\router\provider\service\ImOnlineService.class
+com\ywj\live\im\router\provider\service\ImRouterService.class
+com\ywj\live\im\router\provider\service\impl\ImOnlineServiceImpl.class
+com\ywj\live\im\router\provider\cluster\ImRouterClusterInvoker.class
+com\ywj\live\im\router\provider\rpc\ImRouterRpcImpl.class
+com\ywj\live\im\router\provider\ImRouterProviderApplication.class
+com\ywj\live\im\router\provider\cluster\ImRouterCluster.class

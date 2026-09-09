@@ -1,0 +1,62 @@
+#spring:
+#  application:
+#    name: ywj-live-user-provider
+#  datasource:
+#    driver-class-name: org.apache.shardingsphere.driver.ShardingSphereDriver
+#    url: jdbc:shardingsphere:nacos:192.168.79.163:8848:ywj-db-sharding.yaml?username=nacos&&password=nacos&&namespace=ywj-live-project
+#    hikari:
+#      pool-name: ywj-user-pool
+#      minimum-idle: 15
+#      maximum-pool-size: 300
+#      idle-timeout: 60000
+#      # connection-init-sql: select 1
+#      connection-timeout: 5000
+#      max-lifetime: 60000
+#  data:
+#    redis:
+#      port: 6379
+#      host: 192.168.79.163
+#      lettuce:
+#        pool:
+#          min-idle: 10
+#          max-active: 50
+#          max-idle: 20
+#dubbo:
+#  application:
+#    name: ${spring.application.name}
+#  registry:
+#    address: nacos://192.168.79.163:8848?namespace=ywj-live-project&&username=nacos&&password=nacos
+#  protocol:
+#    name: dubbo
+#    port: 9000
+#
+## rocketmq相关的配置
+#ywj:
+#  rmq:
+#    producer:
+#      nameSrv: 192.168.79.163:9876
+#      groupName: ${spring.application.name} # 单独生产者分组
+#      retryTimes: 3
+#      sendTimeOut: 3000
+#    consumer:
+#      nameSrv: 192.168.79.163:9876
+#      groupName: ${spring.application.name} # 单独消费者分组
+#dubbo:
+#  qos:
+#    enable: true
+#    port: 22221
+#    accept-foreign-ip: false
+dubbo:
+  startup:
+    delay: 5000
+  application:
+    name: ${spring.application.name}
+    # 以下3行和application同级，同缩进，不属于application子项
+    qos-enable: true
+    qos-port: 22221
+    qos-accept-foreign-ip: false
+  registry:
+    address: nacos://192.168.79.163:8848?namespace=ywj-live-project&username=nacos&password=nacos&timeout=5000
+  protocol:
+    name: dubbo
+    port: 9002

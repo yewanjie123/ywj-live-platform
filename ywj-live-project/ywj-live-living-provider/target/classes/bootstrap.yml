@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: ywj-live-living-provider
+  allow-circular-references: true
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: 192.168.79.163:8848
+        namespace: ywj-live-project
+      config:
+        import-check:
+          enabled: false
+        file-extension: yaml
+        server-addr: 192.168.79.163:8848
+        namespace: ywj-live-project
+config:
+  import:
+    - optional:nacos:ywj-live-living-provider.yaml
+#dubbo:
+#  startup:
+#    delay: 5000
+#  application:
+#    name: ${spring.application.name}
+#  registry:
+#    address: nacos://192.168.79.163:8848?namespace=ywj-live-project&username=nacos&password=nacos
+#  protocol:
+#    name: dubbo
+#    port: 9007

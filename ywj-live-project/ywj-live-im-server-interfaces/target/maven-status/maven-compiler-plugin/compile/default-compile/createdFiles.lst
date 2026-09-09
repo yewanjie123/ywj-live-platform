@@ -1,0 +1,4 @@
+com\ywj\im\server\interfaces\rpc\IRouterHandlerRpc.class
+com\ywj\im\server\interfaces\dto\ImOfflineDTO.class
+com\ywj\im\server\interfaces\constants\ImCoreServerConstants.class
+com\ywj\im\server\interfaces\dto\ImOnlineDTO.class

@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: ywj-live-bank-provider
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.79.163:3306/ywj_live_user?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+    hikari:
+      minimum-idle: 10
+      maximum-pool-size: 200
+  data:
+    redis:
+      port: 6379
+      host: 192.168.79.163
+      lettuce:
+        pool:
+          min-idle: 10
+          max-active: 100
+          max-idle: 10
+
+ywj:
+  rmq:
+    producer:
+      nameSrv: 192.168.79.163:9876
+      groupName: ${spring.application.name}
+      applicationName: ${spring.application.name}
+      sendMsgTimeout: 3000
+      retryTimes: 2
+
+dubbo:
+  startup:
+    delay: 5000
+  application:
+    name: ${spring.application.name}
+    # 以下3行和application同级，同缩进，不属于application子项
+    qos-enable: true
+    qos-port: 22225
+    qos-accept-foreign-ip: false
+  registry:
+    address: nacos://192.168.79.163:8848?namespace=ywj-live-project&username=nacos&password=nacos&timeout=5000
+  protocol:
+    name: dubbo
+    port: 9006
+  threadpool: fixed
+  dispatcher: execution
+  threads: 500
+  accepts: 500
+#dubbo:
+#  qos:
+#    enable: true
+#    port: 22225
+#    accept-foreign-ip: false

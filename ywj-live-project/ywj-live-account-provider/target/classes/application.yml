@@ -1,0 +1,5 @@
+dubbo:
+  qos:
+    enable: true
+    port: 22222
+    accept-foreign-ip: false

@@ -1,0 +1,13 @@
+com\ywj\live\user\constants\UserProviderTopicNames.class
+com\ywj\live\user\interfaces\IUserRpc.class
+com\ywj\live\user\dto\UserDTO.class
+com\ywj\live\user\interfaces\IUserPhoneRPC.class
+com\ywj\live\user\constants\UserTagFieldNameConstants.class
+com\ywj\live\user\constants\UserTagsEnum.class
+com\ywj\live\user\interfaces\IUserTagRpc.class
+com\ywj\live\user\dto\UserCacheAsyncDeleteDTO.class
+com\ywj\live\user\dto\UserPhoneDTO.class
+com\ywj\live\user\dto\UserTagDTO.class
+com\ywj\live\user\utils\TagInfoUtils.class
+com\ywj\live\user\dto\UserLoginDTO.class
+com\ywj\live\user\constants\CacheAsyncDeleteCode.class

@@ -1,0 +1,4 @@
+com\ywj\live\im\provider\rpc\ImTokenRpcImpl.class
+com\ywj\live\im\provider\service\ImTokenService.class
+com\ywj\live\im\provider\ImProviderApplication.class
+com\ywj\live\im\provider\service\impl\ImTokenServiceImpl.class

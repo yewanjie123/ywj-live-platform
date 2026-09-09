@@ -1,0 +1,13 @@
+com\ywj\live\bank\interfaces\dto\AccountTradeReqDTO.class
+com\ywj\live\bank\interfaces\dto\PayOrderDTO.class
+com\ywj\live\bank\interfaces\constants\PaySourceEnum.class
+com\ywj\live\bank\interfaces\dto\YwjCurrencyAccountDTO.class
+com\ywj\live\bank\interfaces\rpc\IYwjCurrencyAccountRpc.class
+com\ywj\live\bank\interfaces\constants\TradeTypeEnum.class
+com\ywj\live\bank\interfaces\constants\OrderStatusEnum.class
+com\ywj\live\bank\interfaces\constants\PayChannelEnum.class
+com\ywj\live\bank\interfaces\dto\AccountTradeRespDTO.class
+com\ywj\live\bank\interfaces\rpc\IPayOrderRpc.class
+com\ywj\live\bank\interfaces\rpc\IPayProductRpc.class
+com\ywj\live\bank\interfaces\dto\PayProductDTO.class
+com\ywj\live\bank\interfaces\constants\PayProductTypeEnum.class

@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: 192.168.79.163:8848
+        namespace: ywj-live-project
+      config:
+        import-check:
+          enabled: false
+        # 当前服务启动后去nacos中读取配置文件的后缀
+        file-extension: yaml
+        # 读取配置的nacos地址
+        server-addr: 192.168.79.163:8848
+        # 读取配置的nacos的名空间
+        namespace: ywj-live-project
+  config:
+    import:
+      - optional:nacos:ywj-live-im-core-server.yaml?group=DEFAULT_GROUP
+
+#dubbo:
+#  startup:
+#    delay: 5000
+#  # 新增迁移内容
+#  application:
+#    name: ${spring.application.name}
+#  registry:
+#    address: nacos://192.168.79.163:8848?namespace=ywj-live-project&username=nacos&password=nacos&group=DEFAULT_GROUP
+#  protocol:
+#    name: dubbo
+#    port: 9010
+  # qos注意对齐原业务配置：原业务qos.enable=false，需把bootstrap里qos.enable改为false，端口22229、accept-foreign-ip:false保持一致

@@ -1,0 +1,13 @@
+com\ywj\live\living\provider\config\MybatisPageConfig.class
+com\ywj\live\living\provider\dao\mapper\LivingRoomMapper.class
+com\ywj\live\living\provider\config\RefreshLivingRoomListJob$RefreshCacheListJob.class
+com\ywj\live\living\provider\rpc\LivingRoomRpcImpl.class
+com\ywj\live\living\provider\consumer\LivingRoomOnlineConsumer.class
+com\ywj\live\living\provider\service\ILivingRoomService.class
+com\ywj\live\living\provider\service\impl\LivingRoomServiceImpl.class
+com\ywj\live\living\provider\LivingProviderApplication.class
+com\ywj\live\living\provider\consumer\LivingRoomOfflineConsumer.class
+com\ywj\live\living\provider\dao\po\LivingRoomPO.class
+com\ywj\live\living\provider\dao\mapper\LivingRoomRecordMapper.class
+com\ywj\live\living\provider\config\RefreshLivingRoomListJob.class
+com\ywj\live\living\provider\dao\po\LivingRoomRecordPO.class

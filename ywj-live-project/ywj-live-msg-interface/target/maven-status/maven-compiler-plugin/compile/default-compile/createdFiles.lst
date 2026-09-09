@@ -1,0 +1,5 @@
+com\ywj\live\msg\dto\MessageDTO.class
+com\ywj\live\msg\enums\MsgSendResultEnum.class
+com\ywj\live\msg\interfaces\ISmsRpc.class
+com\ywj\live\msg\enums\ImMsgBizCodeEnum.class
+com\ywj\live\msg\dto\MsgCheckDTO.class

@@ -1,0 +1,4 @@
+com\ywj\live\account\provider\rpc\AccountTokenRPCImpl.class
+com\ywj\live\account\provider\service\impl\AccountTokenServiceImpl.class
+com\ywj\live\account\provider\service\IAccountTokenService.class
+com\ywj\live\account\provider\AccountProviderApplication.class

@@ -1,0 +1,7 @@
+com\ywj\live\living\interfaces\enums\LivingRoomTypeEnum.class
+com\ywj\live\living\interfaces\dto\LivingRoomReqDto.class
+com\ywj\live\living\interfaces\rpc\LivingRoomRpc$ILivingRoomRpc.class
+com\ywj\live\living\interfaces\dto\LivingRoomRespDTO.class
+com\ywj\live\living\interfaces\rpc\LivingRoomRpc.class
+com\ywj\live\living\interfaces\dto\LivingPkRespDTO.class
+com\ywj\live\living\interfaces\rpc\ILivingRoomRpc.class

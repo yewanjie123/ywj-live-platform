@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/ywj-live-user-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-framework/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-framework/ywj-live-framework-datasource/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-id-geterator-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-msg-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-msg-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-account-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-im-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-im-router-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-living-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-living-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-gift-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-bank-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ywj-live-bank-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ywj-live-framework-web" />
+        <module name="ywj-live-account-provider" />
+        <module name="ywj-live-gift-provider" />
+        <module name="ywj-live-bank-provider" />
+        <module name="ywj-live-msg-provider" />
+        <module name="ywj-live-framework-redis" />
+        <module name="ywj-live-msg-interface" />
+        <module name="ywj-live-id-generator-interface" />
+        <module name="ywj-live-im-router-provider" />
+        <module name="ywj-live-bank-api" />
+        <module name="ywj-live-framework-datasource" />
+        <module name="ywj-live-im-provider" />
+        <module name="ywj-live-gift-interface" />
+        <module name="ywj-live-im-core-server" />
+        <module name="ywj-live-im-router-interface" />
+        <module name="ywj-live-user-provider" />
+        <module name="ywj-live-framework-mq" />
+        <module name="ywj-live-im-interface" />
+        <module name="ywj-live-gateway" />
+        <module name="ywj-live-bank-interface" />
+        <module name="ywj-live-common-interface" />
+        <module name="ywj-live-im-server-interfaces" />
+        <module name="ywj-live-living-provider" />
+        <module name="ywj-live-id-generator-provider" />
+        <module name="ywj-live-living-interface" />
+        <module name="ywj-live-user-interface" />
+        <module name="ywj-live-api" />
+        <module name="ywj-live-account-interface" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ywj-live-account-interface" options="-parameters" />
+      <module name="ywj-live-account-provider" options="-parameters" />
+      <module name="ywj-live-api" options="-parameters" />
+      <module name="ywj-live-bank-api" options="-parameters" />
+      <module name="ywj-live-bank-interface" options="-parameters" />
+      <module name="ywj-live-bank-provider" options="-parameters" />
+      <module name="ywj-live-common-interface" options="-parameters" />
+      <module name="ywj-live-framework" options="" />
+      <module name="ywj-live-framework-datasource" options="-parameters" />
+      <module name="ywj-live-framework-mq" options="-parameters" />
+      <module name="ywj-live-framework-redis" options="-parameters" />
+      <module name="ywj-live-framework-web" options="-parameters" />
+      <module name="ywj-live-gateway" options="-parameters" />
+      <module name="ywj-live-gift-interface" options="-parameters" />
+      <module name="ywj-live-gift-provider" options="-parameters" />
+      <module name="ywj-live-id-generator-interface" options="-parameters" />
+      <module name="ywj-live-id-generator-provider" options="-parameters" />
+      <module name="ywj-live-im-core-server" options="-parameters" />
+      <module name="ywj-live-im-interface" options="-parameters" />
+      <module name="ywj-live-im-provider" options="-parameters" />
+      <module name="ywj-live-im-router-interface" options="-parameters" />
+      <module name="ywj-live-im-router-provider" options="-parameters" />
+      <module name="ywj-live-im-server-interfaces" options="-parameters" />
+      <module name="ywj-live-living-interface" options="-parameters" />
+      <module name="ywj-live-living-provider" options="-parameters" />
+      <module name="ywj-live-msg-interface" options="-parameters" />
+      <module name="ywj-live-msg-provider" options="-parameters" />
+      <module name="ywj-live-user-interface" options="-parameters" />
+      <module name="ywj-live-user-provider" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+dubbo:
+  startup:
+    delay: 5000
+  application:
+    name: ${spring.application.name}
+    qos-enable: true
+    qos-port: 22223
+    qos-accept-foreign-ip: false
+  registry:
+    address: nacos://192.168.79.163:8848?namespace=ywj-live-project&username=nacos&password=nacos&timeout=5000
+  protocol:
+    name: dubbo
+    port: 9004

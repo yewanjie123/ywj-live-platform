@@ -1,0 +1,34 @@
+spring:
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: 192.168.79.163:8848
+        namespace: ywj-live-project
+      config:
+        import-check:
+          enabled: false
+        file-extension: yaml
+        server-addr: 192.168.79.163:8848
+        namespace: ywj-live-project
+        group: DEFAULT_GROUP
+config:
+  import:
+    # 分组改为DEFAULT，问号符号修正
+    - optional:nacos:ywj-live-bank-provider.yaml?group=DEFAULT_GROUP
+
+#dubbo:
+#  startup:
+#    delay: 5000
+#  application:
+#    name: ${spring.application.name}
+#  registry:
+#    address: nacos://192.168.79.163:8848?namespace=ywj-live-project&group=DEFAULT&username=nacos&password=nacos&timeout=5000
+#  protocol:
+#    name: dubbo
+#    port: 9006
+#  threadpool: fixed
+#  dispatcher: execution
+#  threads: 500
+#  accepts: 500

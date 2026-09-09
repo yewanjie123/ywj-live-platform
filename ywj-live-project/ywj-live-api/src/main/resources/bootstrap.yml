@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: ywj-live-api
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: 192.168.79.163:8848
+        namespace: ywj-live-project
+      config:
+        import-check:
+          enabled: false
+        file-extension: yaml
+        server-addr: 192.168.79.163:8848
+        namespace: ywj-live-project
+config:
+  import:
+    - optional:nacos:ywj-live-api.yaml
+#dubbo:
+#  startup:
+#    delay: 5000
+#  application:
+#    name: ywj-live-api
+#  registry:
+#    address: nacos://192.168.79.163:8848?namespace=ywj-live-project&username=nacos&password=nacos
+#  protocol:
+#    name: dubbo
+#    port: 9011

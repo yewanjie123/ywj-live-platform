@@ -1,0 +1,19 @@
+#dubbo:
+#  qos:
+#    enable: true
+#    port: 22230
+#    accept-foreign-ip: false
+dubbo:
+  startup:
+    delay: 5000
+  application:
+    name: ${spring.application.name}
+    # 以下3行和application同级，同缩进，不属于application子项
+    qos-enable: true
+    qos-port: 22230
+    qos-accept-foreign-ip: false
+  registry:
+    address: nacos://192.168.79.163:8848?namespace=ywj-live-project&username=nacos&password=nacos&timeout=5000
+  protocol:
+    name: dubbo
+    port: 9011

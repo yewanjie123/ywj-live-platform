@@ -1,0 +1,4 @@
+com\ywj\live\mq\properties\RocketMQProducerProperties.class
+com\ywj\live\mq\properties\RocketMQConsumerProperties.class
+com\ywj\live\mq\producer\RocketMQProducerConfig$1.class
+com\ywj\live\mq\producer\RocketMQProducerConfig.class

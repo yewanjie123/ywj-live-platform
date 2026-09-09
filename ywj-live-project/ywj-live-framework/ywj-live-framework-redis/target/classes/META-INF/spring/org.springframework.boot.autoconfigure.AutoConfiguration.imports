@@ -1,0 +1,9 @@
+com.ywj.live.framework.redis.RedisConfig
+com.ywj.live.framework.key.UserProviderCacheKeyBuilder
+com.ywj.live.framework.key.MsgProviderCacheKeyBuilder
+com.ywj.live.framework.key.AccountProviderCacheKeyBuilder
+com.ywj.live.framework.key.ImProviderCacheKeyBuilder
+com.ywj.live.framework.key.ImCoreServerProviderCacheKeyBuilder
+com.ywj.live.framework.key.LivingProviderCacheKeyBuilder
+com.ywj.live.framework.key.BankProviderCacheKeyBuilder
+com.ywj.live.framework.key.GiftProviderCacheKeyBuilder

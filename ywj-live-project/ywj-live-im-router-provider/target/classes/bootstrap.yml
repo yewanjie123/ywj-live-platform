@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: ywj-live-im-router-provider
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        register-enabled: false
+        server-addr: 192.168.79.163:8848
+        namespace: ywj-live-project
+      config:
+        import-check:
+          enabled: false
+        file-extension: yaml
+        server-addr: 192.168.79.163:8848
+        namespace: ywj-live-project
+config:
+  import:
+    - optional:nacos:ywj-live-im-router-provider.yaml?group=DEFAULT_GROUP
+#dubbo:
+#  consumer:
+#    cluster: imRouter
+#  startup:
+#    delay: 5000
+#  # 从application迁移补充的Dubbo核心配置
+#  application:
+#    name: ${spring.application.name}
+#  registry:
+#    address: nacos://192.168.79.163:8848?namespace=ywj-live-project&username=nacos&password=nacos&timeout=5000&group=DEFAULT_GROUP
+#  protocol:
+#    name: dubbo
+#    port: 9009

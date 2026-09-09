@@ -1,0 +1,5 @@
+com\ywj\im\constants\AppIdEnum.class
+com\ywj\im\constants\ImConstants.class
+com\ywj\im\interfaces\ImTokenRpc.class
+com\ywj\im\constants\ImMsgCodeEnum.class
+com\ywj\im\dto\ImMsgBody.class

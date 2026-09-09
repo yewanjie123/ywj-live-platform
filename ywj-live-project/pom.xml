@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.example</groupId>
+    <artifactId>ywj-live-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Archetype - ywj-live-project</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>ywj-live-user-interface</module>
+        <module>ywj-live-user-provider</module>
+        <module>ywj-live-api</module>
+        <module>ywj-live-common-interface</module>
+        <module>ywj-live-framework</module>
+        <module>ywj-live-framework/ywj-live-framework-datasource</module>
+        <module>ywj-live-framework/ywj-live-framework-redis</module>
+        <module>ywj-live-id-generator-interface</module>
+        <module>ywj-live-id-generator-provider</module>
+        <module>ywj-live-gateway</module>
+        <module>ywj-live-msg-interface</module>
+        <module>ywj-live-msg-provider</module>
+        <module>ywj-live-account-interface</module>
+        <module>ywj-live-account-provider</module>
+        <module>ywj-live-im-interface</module>
+        <module>ywj-live-im-provider</module>
+        <module>ywj-live-im-core-server</module>
+        <module>ywj-live-im-server-interfaces</module>
+        <module>ywj-live-im-router-interface</module>
+        <module>ywj-live-im-router-provider</module>
+        <module>ywj-live-living-interface</module>
+        <module>ywj-live-living-provider</module>
+        <module>ywj-live-gift-interface</module>
+        <module>ywj-live-gift-provider</module>
+        <module>ywj-live-bank-interface</module>
+        <module>ywj-live-bank-provider</module>
+        <module>ywj-live-bank-api</module>
+    </modules>
+
+
+    <properties>
+        <bmc-mysql.version>8.0.28</bmc-mysql.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <springboot.version>3.0.4</springboot.version>
+    </properties>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.0.4</version>
+        <relativePath/>
+    </parent>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2022.0.0.0-RC1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

@@ -1,0 +1,2 @@
+com\ywj\live\framework\datasource\NacosDriverURLProvider.class
+com\ywj\live\framework\datasource\ShardingJdbcDatasourceAutoInitConnectionConfig.class
